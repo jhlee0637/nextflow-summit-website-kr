@@ -70,8 +70,9 @@ h1,h2,h3,.brand span{font-family:'Inter','Noto Sans KR',sans-serif;font-weight:6
         },
         onStateChange: event => {
           if (event.data === YT.PlayerState.ENDED) {
-            event.target.seekTo(2, true);
-            if (eligible() && visible && !document.hidden && !paused) event.target.playVideo();
+            const clip = {videoId:'cW-KwSjuvA0', startSeconds:2, endSeconds:56};
+            if (eligible() && visible && !document.hidden && !paused) event.target.loadVideoById(clip);
+            else event.target.cueVideoById(clip);
           }
           if (event.data === YT.PlayerState.PLAYING) {
             hero.classList.add('video-playing'); toggle.hidden = false;
