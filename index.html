@@ -16,7 +16,7 @@ h1,h2,h3,.brand span{font-family:'Inter','Noto Sans KR',sans-serif;font-weight:6
 .tt-session{overflow:visible;position:relative}.tt-session-content{position:sticky;top:66px;background:inherit}.tt-tick{background:#f0f1f2;color:#60646c;border-top-color:#d7d9dc}.timetable{background:#fff}.tt-clock{background:#e5e7e9;color:#454951;border-right-color:#cfd0d1}
 
 .timetable{grid-template-columns:64px repeat(3,minmax(300px,1fr));min-width:964px}.timetable.tracks-2{grid-template-columns:64px repeat(2,minmax(300px,1fr));min-width:664px}.tt-time-rail{position:sticky;left:0;z-index:3;background:#f0f1f2;border-right:1px solid #d7d9dc;pointer-events:none}.tt-tick{z-index:4;transform:none;padding:3px 7px 0;height:42px;align-self:start;border-right:1px solid #d7d9dc}.tt-clock{left:0;z-index:6;padding:16px 4px;font-size:11px}.tt-head{z-index:5}@media(max-width:760px){.timetable{grid-template-columns:56px repeat(3,280px);min-width:896px}.timetable.tracks-2{grid-template-columns:56px repeat(2,280px);min-width:616px}.tt-tick{padding-left:6px;padding-right:4px;font-size:10px}.tt-clock{font-size:10px}}
-.tt-head.tt-clock{z-index:6;grid-column:1}</style>
+.tt-head.tt-clock{z-index:6;grid-column:1}.timetable-scroll{container-type:inline-size;--time-width:64px}.tt-common .tt-session-content{left:calc(var(--time-width) + 12px);width:min(100%,calc(100cqw - var(--time-width) - 36px))}@media(max-width:760px){.timetable-scroll{--time-width:56px}}</style>
 </head>
 <body>
 <a class="skip" href="#main">본문으로 건너뛰기</a>
