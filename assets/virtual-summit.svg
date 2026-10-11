@@ -4,6 +4,5 @@
 <g fill="#31C9AC"><rect class="voice" x="348" y="151" width="4" height="14" rx="2"/><rect class="voice v2" x="357" y="144" width="4" height="21" rx="2"/><rect class="voice v3" x="366" y="148" width="4" height="17" rx="2"/></g>
 <rect x="151" y="193" width="298" height="44" rx="9" fill="#201637" stroke="#31C9AC" stroke-width="1.5"/>
 <text x="242" y="222" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="26" font-weight="600">Nextflow</text>
-<g fill="#31C9AC"><circle cx="320" cy="215" r="5"/><circle cx="351" cy="205" r="5"/><circle cx="351" cy="225" r="5"/><circle cx="384" cy="215" r="5"/></g>
-<path class="flow-line" d="M325 215L346 205M325 215L346 225M356 205L379 215M356 225L379 215" fill="none" stroke="#31C9AC" stroke-width="2" stroke-dasharray="3 3"/>
-<g fill="#e2f7f3" font-family="sans-serif" font-size="10" text-anchor="middle" letter-spacing="1"><text x="110" y="180">LISTENING</text><text x="490" y="180">LISTENING</text><text x="110" y="385">LISTENING</text><text x="300" y="385">LISTENING</text><text x="490" y="385">LISTENING</text></g></svg>
+
+<g transform="translate(327 199) scale(.128) translate(-125 -124.349)"><path d="M125 170.429C164.44 173.049 196.042 204.739 198.521 244.229H244.58C242.02 179.269 189.914 127.049 125 124.349V170.429Z" fill="#0DC09D"/><path d="M198.781 254.74C196.162 294.19 164.48 325.8 125 328.28V374.35C189.944 371.79 242.15 319.67 244.85 254.74H198.781Z" fill="#0DC09D"/><path d="M301.152 243.959C303.772 204.509 335.454 172.899 374.934 170.419V124.349C309.99 126.909 257.783 179.029 255.084 243.959H301.152Z" fill="#0DC09D"/><path d="M374.938 328.276C335.498 325.656 303.896 293.966 301.417 254.476H255.358C257.918 319.436 310.025 371.656 374.938 374.356V328.276Z" fill="#0DC09D"/></g></svg>
